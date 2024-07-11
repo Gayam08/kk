@@ -25,6 +25,6 @@ calcbtn.onclick = function() {
             res = Number(n1.value) % Number(n2.value);
             break;
     }
-    ores.innerHTML = "a npnor ayaghyoul";
+    ores.innerHTML = "a nonor ayaghyoul";
     result.style.visibility = "visible";
 };
