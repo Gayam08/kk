@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculette JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calc">
+        <div id="title">
+            <h2>Calculette JS</h2>
+        </div>
+
+        <div>
+            <label for="nb1">Nombre 1 :</label>
+            <input type="text" id="nb1">
+        </div>
+
+        <div>
+            <label for="nb2">Nombre 2 :</label>
+            <input type="text" id="nb2">
+        </div>
+        <div>
+            <label for="op">Operateur :</label>
+            <select id="op">
+                <option value="/">/</option>
+                <option value="*">*</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="%">%</option>
+            </select>
+        </div>
+        <button id="calcbtn">Calcul</button>
+    </div>
+    <fieldset id="result">
+        <legend>Resultat</legend>
+        <p>Le resultat: <span id="res"></span></p>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+
+</html>
